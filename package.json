@@ -34,7 +34,8 @@
     "not op_mini all"
   ],
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
