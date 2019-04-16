@@ -1,0 +1,10 @@
+.fontStyle{
+    color: #555 !important;
+    text-align: justify;
+    font-family: 'Roboto',sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    margin: auto;
+    width: 960px;
+
+}
